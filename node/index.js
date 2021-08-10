@@ -37,8 +37,7 @@ app.get('/', (req, res) => {
     });
 
     connection.end()
-
-})
+});
 
 app.listen(port, () => {
     console.log('Rodando na porta ' + port);
